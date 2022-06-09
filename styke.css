@@ -517,10 +517,11 @@ a{
     font-size: 50px;
 
 }
-.name{
+.name {
     display: flex;
     
 }
+
 .first{
 
     width: 406px;
@@ -530,6 +531,9 @@ a{
     padding: 10px;
     margin-right: 100px ;
     
+}
+input{
+    outline: none;
 }
 .last{
     width: 406px;
@@ -667,6 +671,13 @@ footer{
     width: 0px;
     position: absolute;
 }
+.icons{
+    position: absolute;
+    left: -900px;
+    width: 35.33px;
+
+}
+
 /* 
 
 responsive */
@@ -886,6 +897,9 @@ responsive */
         text-transform: capitalize;
     
     }
+    .icons{
+        width: 0px;
+    }
     
     .text2{
         position: absolute;
@@ -1036,6 +1050,10 @@ responsive */
         position: relative;
         top: -20PX;
         width: 15PX;
+    }
+    .menu{
+        width: 29px;
+        
     }
 
     .section8{
